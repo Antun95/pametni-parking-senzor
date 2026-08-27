@@ -39,10 +39,8 @@ Ekran (OLED)
 
 
 ZONE UDALJENOSTI:
-  Više od 50 cm : `SIGURNO` , buzzer isključen
-  Između 35 i 50 cm: `SIGURNO` / `USPORI` , Sporo pištanje. 
-  Između 20 i 35 cm: `USPORI`, srednje pištanje. 
-  Između 10 i 20 cm: `USPORI`, brzo pištanje.
+  Više od 50 cm : `SIGURNO` , buzzer isključen.  
+  Između 35 i 50 cm: `SIGURNO` / `USPORI` , Sporo pištanje.   
+  Između 20 i 35 cm: `USPORI`, srednje pištanje.   
+  Između 10 i 20 cm: `USPORI`, brzo pištanje. 
   Manje od 10 cm: `STOP`, Neprekidan ton.
-
--
