@@ -15,6 +15,10 @@ HC-SR04: Šalje zvuk i sluša jeku kako bi izmjerio udaljenost.
 OLED ekran: ispisuju se upozorenja i mjerenja. 
 Piezo buzzer: zvučni signal.
 
+biblioteke:
+Adafruit GFX Library
+Adafruit SSD1306
+
 
 Arduino i ekran komuniciraju preko dvije žice kako bi se tekst na ekranu refreshao bez kašnjenja.
 Umjesto da koristim naredbu `delay()` koja bi zamrznula cijeli sustav dok buzzer pišti, koristio sam ugrađenu štopericu (millis()). Tako Arduino može istovremeno raditi sva mjerenja i komunicirati s ekranom i buzzerom.
