@@ -17,7 +17,7 @@ Piezo buzzer: zvučni signal.
 
 
 Arduino i ekran komuniciraju preko dvije žice kako bi se tekst na ekranu refreshao bez kašnjenja.
-Umjesto da koristim naredbu `delay()` koja bi zamrznula cijeli sustav dok buzzer pišti, koristio sam ugrađenu štopericu (`millis()`). Tako Arduino može istovremeno raditi sva mjerenja i komunicirati s ekranom i buzzerom.
+Umjesto da koristim naredbu `delay()` koja bi zamrznula cijeli sustav dok buzzer pišti, koristio sam ugrađenu štopericu (millis()). Tako Arduino može istovremeno raditi sva mjerenja i komunicirati s ekranom i buzzerom.
 
 
 SPAJANJAA:
@@ -39,8 +39,8 @@ Ekran (OLED)
 
 
 ZONE UDALJENOSTI:
-  Više od 50 cm : `SIGURNO` , buzzer isključen.  
-  Između 35 i 50 cm: `SIGURNO` / `USPORI` , Sporo pištanje.   
-  Između 20 i 35 cm: `USPORI`, srednje pištanje.   
-  Između 10 i 20 cm: `USPORI`, brzo pištanje. 
-  Manje od 10 cm: `STOP`, Neprekidan ton.
+  Više od 50 cm : SIGURNO , buzzer isključen.  
+  Između 35 i 50 cm: SIGURNO / USPORI , Sporo pištanje.   
+  Između 20 i 35 cm: USPORI, srednje pištanje.   
+  Između 10 i 20 cm: USPORI, brzo pištanje. 
+  Manje od 10 cm: STOP, Neprekidan ton.
