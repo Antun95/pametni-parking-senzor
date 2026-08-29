@@ -14,33 +14,32 @@ HC-SR04: mjeri udaljenost ultrazvukom
 OLED ekran (SH1106, 128x64, I2C) : prikaz udaljenosti i poruka 
 Aktivni buzzer: zvučno upozorenje 
 
-Shema spajanja
-
+Shema:
 | Komponenta | Pin | Arduino Nano |
-| HC-SR04 | VCC | 5V |
-| HC-SR04 | GND | GND |
-| HC-SR04 | Trig | D9 |
-| HC-SR04 | Echo | D10 |
 
-| OLED | VCC | 5V |
-| OLED | GND | GND |
-| OLED | SDA | A4 |
-| OLED | SCL | A5 |
+| HC-SR04 | VCC | 5V |,
+| HC-SR04 | GND | GND |,
+| HC-SR04 | Trig | D9 |,
+| HC-SR04 | Echo | D10 |.
 
-| Buzzer | + | D11 |
-| Buzzer | - | GND |
+| OLED | VCC | 5V |,
+| OLED | GND | GND |,
+| OLED | SDA | A4 |,
+| OLED | SCL | A5 |.
 
-Zone udaljenosti
+| Buzzer | + | D11 |,
+| Buzzer | - | GND |.
 
+Zone udaljenosti<.
 | Udaljenost | Poruka | Buzzer |
-| > 50 cm | SIGURNO | isključen |
-| 35-50 cm | SIGURNO/USPORI | sporo pištanje |
-| 20-35 cm | USPORI | srednje pištanje |
-| 10-20 cm | USPORI | brzo pištanje |
+
+| > 50 cm | SIGURNO | isključen |,
+| 35-50 cm | SIGURNO/USPORI | sporo pištanje |,
+| 20-35 cm | USPORI | srednje pištanje |,
+| 10-20 cm | USPORI | brzo pištanje |,
 | < 10 cm | STOP | neprekidan ton |
 
- Potrebne biblioteke
-
+ Potrebne biblioteke:
 - `Adafruit GFX Library`
 - `Adafruit SH110X`
 
